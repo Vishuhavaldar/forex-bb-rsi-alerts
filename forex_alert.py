@@ -9,7 +9,7 @@ from datetime import datetime, timezone, timedelta
 
 API_KEY = os.environ["7b68fb0cc966400aacbe9a67fa6362a5"]
 BOT_TOKEN = os.environ["8958956370:AAG14a56M8rQS0g3gxoE1p_ozWL_de_nXtU"]
-CHAT_ID = os.environ["@TheForex_alert888_bot"]
+CHAT_ID = os.environ["1983276398"]
 
 PAIRS = ["EUR/USD", "GBP/USD", "USD/JPY", "AUD/USD"]
 
