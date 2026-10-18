@@ -33,7 +33,7 @@ def get_json(url, data=None):
 def fetch_candles(pair):
     params = urllib.parse.urlencode({
         "symbol": pair,
-        "interval": "15min",
+        "interval": "1min",
         "outputsize": 100,
         "timezone": "UTC",
         "apikey": API_KEY
