@@ -8,7 +8,7 @@ params = urllib.parse.urlencode({
     "symbol": "ETH/USD",
     "interval": "1min",
     "outputsize": 5,
-    "apikey": os.environ["TWELVE_DATA_API_KEY"]
+    "apikey": os.environ["7b68fb0cc966400aacbe9a67fa6362a5"]
 })
 
 url = f"https://api.twelvedata.com/time_series?{params}"
